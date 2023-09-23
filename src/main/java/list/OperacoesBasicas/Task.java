@@ -2,7 +2,7 @@ package main.java.list.OperacoesBasicas;
 
 public class Task {
     //atributo
-    private String description;
+    private final String description;
 
     public Task(String description) {
         this.description = description;

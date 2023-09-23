@@ -5,7 +5,7 @@ import java.util.List;
 
 public class TaskList {
     //atributo
-    private List<Task> listTask;
+    private final List<Task> listTask;
 
     public TaskList() {
         this.listTask = new ArrayList<>();
